@@ -1,0 +1,80 @@
+.block {
+   background: rgb(39, 59, 150);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 40px;
+   height: 800px;
+   margin: 0;
+}
+.message {
+   max-width: 40%;
+   &__text{
+      text-transform: uppercase;
+      color: #fff;
+   }
+}
+.message__text {
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.2em;
+   font-size: 28px;
+}
+.main-form {
+   background: #fff;
+   display: flex;
+   flex-direction: column;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   border-radius: 2px;
+   box-shadow: rgb(49, 49, 49);
+}
+.main-form__label {
+   padding-bottom: 10px;
+   padding-top: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+.main-form__info{
+   padding-top: 20px;
+}
+.main-form__inpit {
+   height: 40px;
+}
+.main-form__button {
+   margin-top: 40px;
+   background: rgb(47, 51, 105);
+   border-color: rgb(47, 51, 105);
+   border-radius: 5px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+.table{
+   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+   font-size: 14px;
+   border-collapse: collapse;
+   text-align: center;
+}
+.table th, td:first-child {
+   background: #9cc6ea;
+   color: white;
+}
+.table th, td {
+   border-style: solid;
+   border-width: 0 1px 1px 0;
+   border-color: white;
+   padding: 10px 20px;
+}
+.table td{
+   background: #D8E6F3;
+   color: rgb(3, 38, 63);
+}
+.table th:first-child, td:first-child {
+   text-align: left;
+}

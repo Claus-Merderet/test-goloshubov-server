@@ -1,0 +1,105 @@
+.block {
+  background: #273b96;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 40px;
+  height: 800px;
+  margin: 0;
+}
+
+.message {
+  max-width: 40%;
+}
+
+.message__text {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.message__text {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 28px;
+}
+
+.main-form {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 2px;
+  -webkit-box-shadow: #313131;
+          box-shadow: #313131;
+}
+
+.main-form__label {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.main-form__info {
+  padding-top: 20px;
+}
+
+.main-form__inpit {
+  height: 40px;
+}
+
+.main-form__button {
+  margin-top: 40px;
+  background: #2f3369;
+  border-color: #2f3369;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th, td:first-child {
+  background: #9cc6ea;
+  color: white;
+}
+
+.table th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+  padding: 10px 20px;
+}
+
+.table td {
+  background: #D8E6F3;
+  color: #03263f;
+}
+
+.table th:first-child, td:first-child {
+  text-align: left;
+}
